@@ -8,6 +8,8 @@ module IosIconGen
   class IconGen < Thor::Group
     argument :file_name, :type => :string, :desc => "name of the icon to process"
 
+    desc "Generate all icons necessary for an ios app from the 1024 image"
+
     def gen_images
       sizes = [512, 152, 144, 128, 120, 114, 100, 80, 76, 72, 58, 57, 50, 40, 29]
 
