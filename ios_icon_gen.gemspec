@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = IosIconGen::VERSION
   spec.authors       = ["Allan Davis"]
   spec.email         = ["cajun.code@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Generate iOS Icons for app}
+  spec.summary       = %q{Generate all needed iOS icons for an app based on one 1024x1024 png image}
+  spec.homepage      = "https://github.com/cajun-code/ios_icon_gen"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
