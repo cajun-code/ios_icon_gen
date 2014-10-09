@@ -11,7 +11,7 @@ module IosIconGen
     desc "Generate all icons necessary for an ios app from the 1024 image"
 
     def gen_images
-      sizes = [512, 152, 144, 128, 120, 114, 100, 80, 76, 72, 58, 57, 50, 40, 29]
+      sizes = [512, 180, 152, 144, 128, 120, 114, 100, 87, 80, 76, 72, 58, 57, 50, 40, 29]
 
       image = Magick::Image.read(file_name)
       ext = File.extname(file_name)
